@@ -3,13 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Form</title>
 
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <section class="contact">
 
-    
+        <h2>Contact Me!</h2>
+
+        <form action="#">
+
+            <div class="input-box">
+                <div class="input-field field">
+                    <input type="text" placeholder="Full name" id="name" class="item" autocomplete="off">
+                </div>
+                <div class="input-field field">
+                    <input type="text" placeholder="Email Address" id="email" class="item" autocomplete="off">
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input-field field">
+                    <input type="text" placeholder="Phone number" id="phone" class="item" autocomplete="off">
+                </div>
+                <div class="input-field field">
+                    <input type="text" placeholder="Subject" id="subject" class="item" autocomplete="off">
+                </div>
+            </div>
+
+            <div class="textarea-field field">
+                <textarea name="" id="massage" cols="30" rows="10" placeholder="Your massage" class="item" autocomplete="off"></textarea>
+            </div>
+
+            <button type="submit">Send massage</button>
+
+        </form>
+
+    </section>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
