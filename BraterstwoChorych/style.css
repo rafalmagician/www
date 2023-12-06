@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(#2222ad, #6666ef);
+    background-repeat: repeat-x;
+    background-color: #6666ef;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 16px;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+    /*  ---  SOCIALS  ---  */
+	#socials {
+		height: 80px;
+		width: 160px;
+		position: absolute;
+		top: -10px;
+		right: 0;
+		text-align: center;
+	}
+		#socials a {
+			text-decoration: none;
+			color: #fff;
+		}
+    /*  ---  END SOCIALS  ---  */
+
+    /*  ---  HEADER  ---  */
+	#header {
+		width: 1000px;
+		margin: 5px auto;
+	}
+		#logo {
+			float: left;
+			width: 250px;
+		}
+			.logo {
+				display: block;
+				margin: 10px auto;
+				width: 170px;
+				height: 170px;
+			}
+		#text {
+			float: left;
+			width: 750px;
+			margin-top: 55px;
+		}
+			#text > h1 {
+				text-transform: uppercase;
+				line-height: 1.4;
+				font-size: 32px;
+				text-shadow: 0 0 3px #000069, 2px 2px 3px #000;
+				letter-spacing: 1px;
+			}
+    /*  ---  END  HEADER  ---  */
+
+/*  ---  LINE  ---  */
+#line {
+    width: 100%;
+    border: 1px dashed #00008b;
+    margin: 15px 0;
+}
+/*  ---  END LINE  ---  */
+
+        /*  ---  MAIN  ---  */
+        #main {
+            width: 100%;
+        }
+        /*  ---  END MAIN  ---  */
+
+            /*  ---  NAV  ---  */
+            #nav {
+                float: left;
+                width: 250px;
+                text-align: center;
+            }
+                #ul-nav {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    display: inline-block;
+                }
+                    ul a {
+                        text-decoration: none;
+                        display: block;
+                        padding: 15px 0;
+                        color: #fff;
+                        text-transform: uppercase;
+                        box-shadow: 0 0 7px #000069;
+                        text-shadow: 0 0 3px #000069, 2px 2px 3px #000;
+                        font-weight: bold;
+                    }
+                        ul a:hover {
+                            background-color: #11117a;
+                        }
+                    ul > li {
+                        width: 220px;
+                        margin: 15px 0;
+                        font-size: 20px;
+                    }
+                        ul > li:first-child {
+                            margin-top: 0;
+                        }
+                    #lighted-tile {
+                        color: #f0e050;
+                        background-color: #11117a;
+                    }
+            /*  ---  END NAV  ---  */
+
+            /*  ---  CONTENT  ---  */
+            #content {
+                float: left;
+                width: 750px;
+            }
+            /*  ---  END CONTENT  ---  */
+
+                /*  ---  ARTICLE  ---  */
+                .article {
+                    width: 720px;
+                    box-shadow: 0 0 7px #000069;
+                    padding: 5px;
+                    margin: 10px auto 0 auto;
+                }
+                    .article:first-child {
+                        margin-top: 0;
+                    }
+                        .div-left-image {
+                            float: left;
+                            width: 160px;
+                            text-align: center;
+                            padding: 5px;
+                        }
+                        .div-right-text {
+                            float: left;
+                            width: 550px;
+                            text-align: justify;
+                            padding: 5px;
+                        }
+                            .div-right-text p {
+                                margin-top: 15px;
+                            }
+                        .button a {
+                            width: 150px;
+                            padding: 5px 0;
+                            box-shadow: 0 0 5px #000069;
+                            font-weight: bold;
+                            cursor: pointer;
+                            text-align: center;
+                            float: right;
+                        }
+                            a:hover {
+                                background-color: #11117a;
+                            }
+                /*  ---  END ARTICLE  ---  */
+
+    /*  ---  COPY_WRIGHT  ---  */
+	#copy-wright {
+		text-align: center;
+		padding: 10px 0;
+		font-weight: bold;
+		text-shadow: 0 0 3px #000069, 1px 1px 3px #000;
+	}
+	/*  ---  END COPY_WRIGHT  ---  */
