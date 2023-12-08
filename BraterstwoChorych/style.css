@@ -11,6 +11,7 @@ body {
     color: #fff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-size: 16px;
+    overflow: hidden;
 }
 
 #container {
@@ -129,6 +130,7 @@ body {
                     box-shadow: 0 0 7px #000069;
                     padding: 5px;
                     margin: 10px auto 0 auto;
+                    transition: 2s;
                 }
                     .article:first-child {
                         margin-top: 0;
@@ -139,6 +141,9 @@ body {
                             text-align: center;
                             padding: 5px;
                         }
+                            .__small__picture {
+                                box-shadow: 0 0 8px #000;
+                            }
                         .div-right-text {
                             float: left;
                             width: 550px;
@@ -148,7 +153,7 @@ body {
                             .div-right-text p {
                                 margin-top: 15px;
                             }
-                        .button a {
+                        .button > a {
                             width: 150px;
                             padding: 5px 0;
                             box-shadow: 0 0 5px #000069;
@@ -157,7 +162,7 @@ body {
                             text-align: center;
                             float: right;
                         }
-                            a:hover {
+                            .button > a:hover {
                                 background-color: #11117a;
                             }
                 /*  ---  END ARTICLE  ---  */
@@ -170,3 +175,16 @@ body {
 		text-shadow: 0 0 3px #000069, 1px 1px 3px #000;
 	}
 	/*  ---  END COPY_WRIGHT  ---  */
+
+/*  ---  SNOW  ---  */
+i.snowflake {
+    position: absolute;
+    top: -30px;
+    animation: snow linear;
+}
+@keyframes snow {
+    to {
+        transform: translateY(1000px);
+    }
+}
+/*  ---  END SNOW  ---  */
